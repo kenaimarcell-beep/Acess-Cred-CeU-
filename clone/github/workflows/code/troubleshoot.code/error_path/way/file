@@ -1,0 +1,55 @@
+Set Up 
+Build 
+Config
+Decrypt:
+Clone:
+script:
+style:
+HTML:
+- file:
+type:
+- devero:
+GET:
+- path/way/link:
+- name:
+- "https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.77859.m.24501aa2.js":
+- run:
+build:
+true:
+- name:
+"null":
+- analzye:
+- cause_root:
+- test:
+format:
+- "mapcause":
+GET:
+- MapuserID:
+' name:
+"prof.marcell@outlook.com":
+deploy:
+- test:
+- report:
+- debug:
+type:
+- troubleshoot:
+- name:
+- "cvent.userID":
+- password:
+"err_maproot":
+- name:
+- userID:
+- reboot:
+- generate:
+devro:
+key-pairing:
+- name:
+backup_code:
+draft:
+pull_request:
+- name: 
+"push code":
+- draft push:
+confromaitions:
+-  1 of 2 
+- true
