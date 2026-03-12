@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Security Catalog Entry",
+  "type": "object",
+  "required": ["entry_id", "timestamp", "crm_change_id", "retention_policy", "artifact_checksum", "ci_cl_report_hash", "device_cert"],
+  "properties": {
+    "entry_id": { "type": "string", "description": "Unique identifier for the catalog entry" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "author": { "type": "string" },
+    "crm_change_id": { "type": "string", "description": "Source CRM change management ID" },
+    "retention_policy": { "type": "string", "description": "Retention rule identifier or JSON policy reference" },
+    "artifact_path": { "type": "string", "description": "Path or URL to the artifact (https dataset path)"},
+    "artifact_checksum": { "type": "string", "description": "SHA256 hex of artifact" },
+    "ci_cl_report_hash": { "type": "string", "description": "Hash of the CI_CL input report (sha256)" },
+    "device_cert": {
+      "type": "object",
+      "properties": {
+        "device_id": { "type": "string" },
+        "cert_serial": { "type": "string" },
+        "cert_fingerprint": { "type": "string" },
+        "cert_policy": { "type": "string" }
+      }
+    },
+    "compliance_flags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "signatures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "signer": { "type": "string" },
+          "signature": { "type": "string" },
+          "alg": { "type": "string" }
+        }
+      }
+    },
+    "notes": { "type": "string" }
+  }
+}
