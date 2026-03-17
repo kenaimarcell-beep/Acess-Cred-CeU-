@@ -1,0 +1,22 @@
+GET CLONE
+- file:
+- type:
+- name:
+- "dotjson":
+- link:
+- path/way/file:
+- value:
+- name:
+- "document.querySelector("#m_-1010337178943468857x_body > table:nth-child(1) > tbody > tr > td > div > table > tbody > tr:nth-child(2) > td > div > table > tbody > tr > td > div > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > div > table > tbody > tr:nth-child(2) > td > p > span:nth-child(1) > a")
+- commit:
+- repo:
+[kenaimarcell]
+- name:
+- "Access-Cred-CeU-"
+- run code:
+- ubuntu:
+deploy code:
+- name:
+"draft":
+- push code:
+--force push:
